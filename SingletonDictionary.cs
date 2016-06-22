@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Ryan.Core
+namespace Daisy.Core
 {
     /// <summary>
     ///     Provides a singleton dictionary for a certain key and vlaue type.

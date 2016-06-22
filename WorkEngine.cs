@@ -7,7 +7,7 @@ using Microsoft.Practices.ServiceLocation;
 
 #endregion
 
-namespace Ryan.Core
+namespace Daisy.Core
 {
     /// <summary>
     ///     Engine

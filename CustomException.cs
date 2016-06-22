@@ -4,7 +4,7 @@ using System;
 
 #endregion
 
-namespace Ryan.Core
+namespace Daisy.Core
 {
     public class CustomException : Exception
     {

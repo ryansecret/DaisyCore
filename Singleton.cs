@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 #endregion
 
-namespace Ryan.Core
+namespace Daisy.Core
 {
     /// <summary>
     ///     A statically compiled "singleton" used to store objects throughout the

@@ -6,7 +6,7 @@ using System.Reflection;
 
 #endregion
 
-namespace Ryan.Core
+namespace Daisy.Core
 {
     /// <summary>
     ///     Provides information about types in the current web application.

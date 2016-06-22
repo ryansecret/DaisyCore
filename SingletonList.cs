@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Ryan.Core
+namespace Daisy.Core
 {
     /// <summary>
     ///     Provides a singleton list for a certain type.
