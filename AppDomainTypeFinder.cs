@@ -33,10 +33,7 @@ namespace Daisy.Core
         #region Properties
 
         /// <summary>The app domain to look for types in.</summary>
-        public virtual AppDomain App
-        {
-            get { return AppDomain.CurrentDomain; }
-        }
+        public virtual AppDomain App => AppDomain.CurrentDomain;
 
         /// <summary>
         ///     Gets or sets wether Nop should iterate assemblies in the app domain when loading Nop types. Loading patterns
