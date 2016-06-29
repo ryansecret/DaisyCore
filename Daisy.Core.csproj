@@ -42,10 +42,17 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDomainTypeFinder.cs" />
+    <Compile Include="Config\AppSettingSource.cs" />
+    <Compile Include="Config\ConfigResult.cs" />
+    <Compile Include="Config\DaisyConfig.cs" />
+    <Compile Include="Config\Interface\IConfiguration.cs" />
+    <Compile Include="Config\Interface\IConfigurationSource.cs" />
+    <Compile Include="Config\JsonConfig\ModelConfig.cs" />
     <Compile Include="CustomException.cs" />
     <Compile Include="IAsyncStartupTask.cs" />
     <Compile Include="IStartupTask.cs" />
