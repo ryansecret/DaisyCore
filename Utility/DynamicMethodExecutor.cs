@@ -26,7 +26,7 @@ namespace Daisy.Core.Utility
                 Expression.Parameter(typeof(object), "instance");
             ParameterExpression parametersParameter =
                 Expression.Parameter(typeof(object[]), "parameters");
-
+          
             // build parameter list
             List<Expression> parameterExpressions = new List<Expression>();
             ParameterInfo[] paramInfos = methodInfo.GetParameters();

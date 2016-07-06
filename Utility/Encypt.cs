@@ -9,6 +9,7 @@ namespace Daisy.Core.Utility
         public static string HashPassWord(string message,string salt)
         {
             var md5 = new MD5CryptoServiceProvider();
+        
             var byt = Encoding.UTF8.GetBytes(salt + message);
             var bytHash = md5.ComputeHash(byt);
             md5.Clear();

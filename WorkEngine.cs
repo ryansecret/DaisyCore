@@ -2,6 +2,7 @@
 
 using System;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Microsoft.Practices.ServiceLocation;
 
@@ -35,6 +36,7 @@ namespace Daisy.Core
         /// </summary>
         protected virtual void RunAysncStartupTasks()
         {
+            
             var startUpTasks = ResolveAll<IAsyncStartupTask>().ToList();
             Parallel.ForEach(startUpTasks, d => d.Execute());
         }
