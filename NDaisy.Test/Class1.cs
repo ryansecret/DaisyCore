@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NUnit.Framework;
+ 
  
 
 namespace NDaisy.Test
 {
     public class Class1
     {
-        [Test]
+        [Fact]
         public void EncryptTest()
         {
-           
-            Assert.NotNull("sdf");
-
+ 
         }
     }
 }

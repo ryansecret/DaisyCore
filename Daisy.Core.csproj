@@ -68,6 +68,8 @@
     <Compile Include="SingletonList.cs" />
     <Compile Include="Utility\DynamicMethodExecutor.cs" />
     <Compile Include="Utility\Encypt.cs" />
+    <Compile Include="Utility\Extension.cs" />
+    <Compile Include="Utility\TypeExt.cs" />
     <Compile Include="WebAppTypeFinder.cs" />
     <Compile Include="WorkEngine.cs" />
   </ItemGroup>
